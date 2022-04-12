@@ -1,0 +1,9 @@
+groups:
+  - data_type_def: ERFile
+    data_type_inc: Container #NWBFILE uses "Container" in the schema but "MCI" in the class
+    name: root
+    doc: A file for storing ExternalResources
+    groups:
+      - data_type_inc: ExternalResources
+        doc: "ExternalResources to be saved"
+        quantity: '?'

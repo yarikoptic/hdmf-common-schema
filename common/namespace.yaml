@@ -48,4 +48,7 @@ namespaces:
   - doc: data types for storing references to web accessible resources
     source: resources.yaml
     title: Resource reference data types
+  - doc: data types for storing references to web accessible resources
+    source: er_file.yaml
+    title: Resource reference data types
   version: 0.2.0
