@@ -1,9 +1,7 @@
 groups:
   - data_type_def: ExternalResoucesFile
     data_type_inc: Container
-    name: root
     doc: A file for storing ExternalResources
     groups:
       - data_type_inc: ExternalResources
         doc: "ExternalResources to be saved"
-        quantity: '*'
